@@ -4,7 +4,17 @@
   box-sizing: border-box;
 }
 
+@import 'sass/colors';
+@import 'sass/typography';
+
 body{
   width: 100%;
-  background-color: #050607;
+  background-color: $black-dark;
 }
+
+.border{
+  border: 1px solid red;
+}
+
+@import 'sass/spacing';
+@import 'sass/layout';
